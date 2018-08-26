@@ -11,3 +11,4 @@ A simple nodejs script that collects data on block's weight and size.
 
 ## Run
 Run the script using the command `npm run` or `node index.js`.
+Once the script completes (it can take up to couple of hours), the data will be stored under `data.csv`.
