@@ -24,7 +24,7 @@ async function getBlocksData() {
   
   // You can manually insert the last block number.
   let ending = await rpc.getBlockCountAsync();
-  console.log("Getting dat for blocks ", starting, " - ", ending.result);
+  console.log("Getting data for blocks ", starting, " - ", ending.result);
   for (let i = starting; i < ending.result; i++){
     let blockHash;
     let block;
